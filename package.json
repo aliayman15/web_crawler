@@ -1,0 +1,28 @@
+{
+  "name": "web_crawler",
+  "version": "1.0.0",
+  "description": "a simple web crawler in js",
+  "main": "main.js",
+  
+"scripts": {
+  "start": "node main.js",
+  "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+},
+"jest": {
+  "transform": {}
+},
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliayman15/web_crawler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aliayman15/web_crawler/issues"
+  },
+  "homepage": "https://github.com/aliayman15/web_crawler#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
